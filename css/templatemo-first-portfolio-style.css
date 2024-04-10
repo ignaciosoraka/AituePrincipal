@@ -563,6 +563,22 @@ strong {
   z-index: 1; /* Z-index mayor para que esté por encima del header */
 }
 
+@media (max-width:786px){
+  #particles-js {
+    position: absolute; /* Cambiado a 'absolute' */
+    top: 0;
+    left: 0;
+   
+    height: 100vh;
+   
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 99; /* Z-index mayor para que esté por encima del header */
+  }
+}
+
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
