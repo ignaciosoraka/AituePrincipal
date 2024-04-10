@@ -63,7 +63,7 @@ h6 {
 
 h1 {
   font-size: var(--h1-font-size);
-  letter-spacing: -3px;
+  
 }
 
 h2 {
@@ -577,6 +577,14 @@ strong {
     background-repeat: no-repeat;
     z-index: 99; /* Z-index mayor para que esté por encima del header */
   }
+
+  .hero h1 {
+    font-size: 38px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    text-align: center; /* Centra el texto en dispositivos móviles */
+  }
+  
+
 }
 
 /*---------------------------------------
