@@ -1425,13 +1425,7 @@ footer {
     padding: 6px 12px;
   }
 
-  .navbar-icon {
-    font-size: var(--copyright-font-size);
-    width: 35.5px;
-    height: 35.5px;
-    line-height: 35.5px;
-  }
-
+  
   .hero-image-wrap {
     width: 300px;
     height: 300px;
