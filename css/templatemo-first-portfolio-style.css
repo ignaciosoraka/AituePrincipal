@@ -311,14 +311,14 @@ strong {
 
 @media (max-width:786px){
   .navbar-icon {
-    width: 52px;
-  height: 52px;
-  line-height: 52px;
+    width: 62px;
+  height:62px;
+  line-height: 62px;
   }
 
 
   .whatsapp-logo i {
-    font-size: 30px; /* Tamaño deseado del icono */
+    font-size: 38px; /* Tamaño deseado del icono */
   }
 }
 
@@ -1128,13 +1128,11 @@ footer {
   left: 0;
   right: 0;
   
-  background-image: url('../images/trama1.png');
-  height: auto;
-  width: 100%;
-
+  background-image: url(../images/trama1.png); /* Imagen de fondo */
+  background-color:  #29577d; /* Color de fondo con poca opacidad */
+  background-size: cover;
   padding-top: 40px;
   color: #000000;
-
 }
 
 .footer-content {
@@ -1156,7 +1154,8 @@ footer {
   max-width: 500px;
   margin: 10px 15px;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 20px;
+  color: rgb(199, 199, 199);
 }
 
 .socials1 {
@@ -1190,14 +1189,14 @@ footer {
 
 .footer-bottom {
 
-  background: #3360aa;
+  background: #1f2937;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
 }
 
 .footer-bottom p {
-  color: #000000;
+  color: #899ba4;
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
@@ -1314,14 +1313,7 @@ footer {
     color: var(--dark-color);
   }
 
-  .navbar-icon {
-    background: #55A1C2;
-    color: var(--white-color);
-    width: 44px;
-    height: 44px;
-    line-height: 44px;
-  }
-
+ 
   .navbar .custom-btn {
     border-color: var(--secondary-color);
     color: var(--secondary-color);
