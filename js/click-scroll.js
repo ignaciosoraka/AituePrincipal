@@ -1,7 +1,4 @@
-//jquery-click-scroll
-//by syamsul'isul' Arifin
-
-var sectionArray = [1, 2, 3, 4, 5];
+var sectionArray = [1, 2, 4, 5]; // Actualiza los valores del array para que coincidan con los id de las secciones en tu HTML
 
 $.each(sectionArray, function(index, value){
           
