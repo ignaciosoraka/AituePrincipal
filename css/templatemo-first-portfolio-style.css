@@ -311,14 +311,14 @@ strong {
 
 @media (max-width:786px){
   .navbar-icon {
-    width: 42px;
-  height: 42px;
-  line-height: 42px;
+    width: 52px;
+  height: 52px;
+  line-height: 52px;
   }
 
 
   .whatsapp-logo i {
-    font-size: 24px; /* Tamaño deseado del icono */
+    font-size: 30px; /* Tamaño deseado del icono */
   }
 }
 
