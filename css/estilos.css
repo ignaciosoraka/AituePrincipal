@@ -907,13 +907,14 @@ Bola que gira
   }
 
   .marcas {
-      margin-top: 130px;
+    
+      margin-top: 150px;
       font-size: 30px;
       
   }
 
   .testimony1{
-   margin-top: -200px;
+   margin-top: -150px;
   }
 }
 
