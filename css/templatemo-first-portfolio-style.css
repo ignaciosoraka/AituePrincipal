@@ -61,10 +61,7 @@ h6 {
   letter-spacing: -1px;
 }
 
-h1 {
-  font-size: var(--h1-font-size);
-  
-}
+
 
 h2 {
   font-size: var(--h2-font-size);
@@ -148,8 +145,8 @@ strong {
 -----------------------------------------*/
 .avatar-image {
   border-radius: var(--border-radius-large);
-  width: 160px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
 }
 
@@ -248,7 +245,7 @@ strong {
   CUSTOM ICON               
 -----------------------------------------*/
 .navbar-icon {
-  background: #25D366;
+  background: #55A1C2;
   border-radius: var(--border-radius-large);
   color: white;
   width: 47px;
@@ -258,7 +255,7 @@ strong {
 }
 
 .is-sticky .navbar-icon {
-  background: #25D366;
+  background: #55A1C2;
   color: var(--white-color);
 }
 
@@ -357,7 +354,7 @@ strong {
 
 .is-sticky .navbar .custom-btn:hover {
   background: var(--secondary-color);
-  color: var(--white-color);
+  color: #FFDAB9;
 }
 
 .navbar {
@@ -414,16 +411,18 @@ strong {
   width: 100%;
   height: 2px;
 }
-
-.navbar-nav .nav-link.active::after, 
-.navbar-nav .nav-link:hover::after {
-  background: #5e5959;
+.nav-item .nav-link {
+  transition: none; /* Desactiva la transición por defecto */
 }
 
-.navbar-nav .nav-link.active, 
-.navbar-nav .nav-link:hover {
-  color:#5e5959;
+.nav-item:hover .nav-link {
+  background-color: #d7d8d8; /* Cambia el color de fondo al pasar el mouse */
+  color: #000000; /* Cambia el color del texto al pasar el mouse */
+  border-radius: 10px; /* Agrega bordes redondeados */
+  padding: 10px 20px; /* Agrega más espacio dentro del enlace */
+  transition: background-color 0.3s, color 0.3s; /* Aplica la transición solo en estado de hover */
 }
+
 
 .navbar-toggler {
   border: 0;
@@ -531,6 +530,7 @@ strong {
 }
 
 .hero h1 {
+  font-size: 58px ;
   position: absolute; /* Establece posición absoluta para el texto */
   top: 50%; /* Lo posiciona en el 50% del contenedor */
   left: 50%; /* Lo posiciona en el 50% del contenedor */
