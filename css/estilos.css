@@ -4,7 +4,7 @@
   --primary-color:                #449ad5;
   --secondary-color:              #3360aa;
   --section-bg-color:             #f9f9f9;
-  --dark-color:                   #000000;
+  --dark-color:                   #464646;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
   --featured-border-color:        #727aab;
@@ -980,7 +980,7 @@ Bola que gira
   margin-bottom: 24px;
   padding: 40px;
   transition: all ease 0.5s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .projects-thumb:hover {
